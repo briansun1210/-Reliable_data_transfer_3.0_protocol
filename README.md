@@ -17,3 +17,5 @@ Your sender and receiver should specify the same connection ID (this is how the
 server will know to relay messages between these two TCP clients).
 
 * <transmission_timeout> default timeout in seconds (float) for sender's timer
+  
+using checksum method to make sure the packet string receve correctly
