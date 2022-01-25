@@ -15,3 +15,5 @@ packet at the server.
 * <connection_id> is a string with four digits specifying the connection ID of the client.
 Your sender and receiver should specify the same connection ID (this is how the 
 server will know to relay messages between these two TCP clients).
+
+* <transmission_timeout> default timeout in seconds (float) for sender's timer
